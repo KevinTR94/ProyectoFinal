@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Información de Lionel Messi">
+    <meta name="keywords" content="MESSI, FUTBOL, LIONEL, ARGENTINA, BARCELONA, ESPAÑA, GOAT">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="shortcut icon" href="https://static.messi.com/wp-content/uploads/2019/10/cropped-logo--32x32.png " type="image/x-icon">
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11%22%3E"> </script>
+        <title>The Goat</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <!-- MENU ENCABEZADO -->
+    
+
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">L1O</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#habilidades" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#trayectoria" onclick="seleccionar()">TRAYECTORIA</a></li>
+                    <li><a href="#logros" onclick="seleccionar()">LOGROS</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <h1>HOLA MESSI</h1>
+        <div class="contenido-banner">
+            
+            <div class="contenedor-img">
+                <img   src="img/Messi2.jpg" alt="">
+            </div>
+            <h1>LIONEL MESSI</h1>
+            <h2>El mejor futbolista de todos los tiempos</h2>
+            <div class="redes">
+                <a target="_blank" href="https://www.facebook.com/leomessi/"><i class="fa-brands fa-facebook-f"></i></a>
+                <a target="_blank" href="https://www.instagram.com/leomessi/"><i class="fa-brands fa-instagram"></i></a>
+                <a target="_blank" href="https://messi.com/"><i class="fa-solid fa-rss"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>THE GOAT</h2>
+            <p><span>Lionel Andres Messi Cuccitini.</span> Futbolista argentino, actual jugador del Paris Saint Germain
+                y la selección argentina. Campeón del mundo. Esposo y padre de tres hijos</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Fecha de nacimiento</strong>
+                            24 de junio de 1987
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            555-10101010
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            liomessi10@messi.com
+                        </li>
+                        <li>
+                            <strong>Página Web</strong>
+                            www.messi.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Paris, Francia
+                        </li>
+                        <li>
+                            <strong>Posición</strong>
+                            <span>Delantero</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Premios -->
+                <div class="col">
+                    <h3>Premios</h3>
+                    <div class="contenedor-premios">
+                        <div class="premios">
+                            <i class="fa-solid fa-futbol"></i>
+
+
+                            <span>BALON DE ORO</span>
+                            
+                        </div>
+                       
+
+                        <div class="premios">
+                            <i class="fa-solid fa-trophy"></i>
+                            <span>THE BEST</span>
+                        </div>
+                        <div class="premios">
+                            <i class="fa-solid fa-trophy"></i>
+                            <span>BOTA DE ORO</span>
+
+                        </div>
+                        <div class="premios">
+                            <i class="fa-solid fa-trophy"></i>
+                            <span>PICHICHI</span>
+                        </div>
+                        <div class="premios">
+                            <i class="fa-solid fa-trophy"></i>
+                            <span>UEFA YEAR PLAYER</span>
+                        </div>
+                        <div class="premios">
+                            <i class="fa-solid fa-ranking-star"></i>
+                            <span>EQUIPO DE LA TEMPORADA</span>
+                        </div>
+                        <div class="premios">
+                            <i class="fa-solid fa-ranking-star"></i>
+                            <span>MEJOR JUGADOR COPA DEL MUNDO</span>
+                        </div>
+                        <div class="premios">
+                            <i class="fa-solid fa-medal"></i>
+                            <span>MEDALLA DE ORO JJ.OO.</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar palmares <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="habilidades" id="habilidades">
+        <div class="contenido-seccion">
+            <h2>Habilidades y Estadiísticas</h2>
+            <div class="fila">
+                <!-- Habilidades -->
+                <div class="col">
+                    <h3>Habilidades</h3>
+                    <div class="habilidad">
+                        <span>Ritmo</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>87</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Pases</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>96</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Disparo</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>94</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Físico</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>76</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Regate</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>99</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Defensa</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>39</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- EStadisticas -->
+                <div class="col">
+                    <h3>Estadísticas</h3>
+                    <div class="habilidad">
+                        <span>Partidos</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>1012</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Goles</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>798</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Asistencias</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>352</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Promedio (G+A)</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>1.14</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Títulos</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>42</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Premios</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>78</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION TRAYECTORIA -->
+    <section id="trayectoria" class="trayectoria">
+        <div class="contenido-seccion">
+            <h2>TRAYECTORIA</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Equipo</h3>
+                    <div class="item izq"> 
+                        <h4>Argentina</h4>
+                        <span class="equipo">Newells Old Boys</span>
+                        <span class="fecha">1994 - 1999</span> 
+                       
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>España</h4>
+                        <span class="equipo">Barcelona</span>
+                        <span class="fecha">2000-2020</span>
+                        
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Francia</h4>
+                        <span class="equipo">Paris Saint Germain</span>
+                        <span class="fecha">2021 - actualidad</span>
+                       
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Argentina</h4>
+                        <span class="equipo">Selección Nacional juvenil</span>
+                        <span class="fecha">2002-2005</span>
+                        <span class="equipo">Selección Nacional Mayor</span>
+                        <span class="fecha">2005 - actualidad</span>
+                       
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Titulos</h3>
+                    <div class="item der">
+                        
+                        <h4> Varios campeonatos en infantiles donde ya podia
+                            verse la diferencia que marcaba con sus compañeros
+                            de categorias mayores
+                        </h4>
+                        
+                       
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Liga</h4>
+                        <h4>Copa del Rey</h4>
+                        <h4>Supercopa de España</h4>
+                        <h4>Champions League</h4>
+                        <h4>Supercopa de Europa</h4>
+                        <h4>Mundial de Clubes</h4>
+                        
+                        
+                        
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Ligue 1</h4>
+                        <h4>Copa de Francia</h4>
+                      
+                       
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>Mundial Sub-20</h4>
+                        <h4>Juegos Olímpicos</h4>
+                        <h4>Copa América</h4>
+                        <h4>Finalissima</h4>
+                        <h4>Mundial Qatar 2022</h4>
+                      
+                       
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section  id="trayectoria-mobile" class="trayectoria">
+        <div class="contenido-seccion">
+            <h2>TRAYECTORIA</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Equipo</h3>
+                    <div class="item izq"> 
+                        <h4>Argentina</h4>
+                        <span class="equipo">Newells Old Boys</span>
+                        <span class="fecha">1994 - 1999</span> 
+                        <h4> Varios campeonatos en infantiles donde ya podia
+                            verse la diferencia que marcaba con sus compañeros
+                            de categorias mayores
+                        </h4>
+                       
+                       
+                    </div>
+                    <div class="item izq">
+                        <h4>España</h4>
+                        <span class="equipo">Barcelona</span>
+                        <span class="fecha">2000-2020</span>
+                        <h4>Liga</h4>
+                        <h4>Copa del Rey</h4>
+                        <h4>Supercopa de España</h4>
+                        <h4>Champions League</h4>
+                        <h4>Supercopa de Europa</h4>
+                        <h4>Mundial de Clubes</h4>
+                        
+                        
+                    </div>
+                    <div class="item izq">
+                        <h4>Francia</h4>
+                        <span class="equipo">Paris Saint Germain</span>
+                        <span class="fecha">2021 - actualidad</span>
+                        <h4>Ligue 1</h4>
+                        <h4>Copa de Francia</h4>
+                       
+                        
+                    </div>
+                    <div class="item izq">
+                        <h4>Argentina</h4>
+                        <span class="equipo">Selección Nacional juvenil</span>
+                        <span class="fecha">2002-2005</span>
+                        <span class="equipo">Selección Nacional Mayor</span>
+                        <span class="fecha">2005 - actualidad</span>
+                        <h4>Mundial Sub-20</h4>
+                        <h4>Juegos Olímpicos</h4>
+                        <h4>Copa América</h4>
+                        <h4>Finalissima</h4>
+                        <h4>Mundial Qatar 2022</h4>
+                       
+                        
+                    </div>
+                </div>
+            </section>
+        
+
+    <!-- SECCION LOGROS -->
+    <section id="logros" class="logros">
+        <div class="contenido-seccion">
+            <h2>LOGROS</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/messiganachampio.avif" alt="">
+                    <div class="overlay">
+                        <h3>Champions League</h3>
+                        <p>2006-2009-2011-2015</p>
+                    </div>
+
+                </div>
+                <div class="proyecto">
+                    <img src="img/messimundialdeclub.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Mundial de Clubes</h3>
+                        <p>2009-2011-2015</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/messilaliga.jpg" alt="">
+                    <div class="overlay">
+                        <h3>La Liga</h3>
+                        <p>2005-2006-2009-2010-2011</p>
+                        <p>2013-2015-2016-2018-2019</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/messicampeonfran.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Supercopa de Francia</h3>
+                        <p>2021</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/messicopaameric.webp" alt="">
+                    <div class="overlay">
+                        <h3>Copa América</h3>
+                        <p>2021</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/messicampeonmund.avif" alt="">
+                    <div class="overlay">
+                        <h3>Mundial Qatar 2022</h3>
+                        <p>2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/mESSICONTACPNG.png" alt="">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a target="_blank" href="https://www.facebook.com/leomessi/"><i class="fa-brands fa-facebook-f"></i></a>
+            <a target="_blank" href="https://www.instagram.com/leomessi/"><i class="fa-brands fa-instagram"></i></a>
+            <a target="_blank" href="https://messi.com/"><i class="fa-solid fa-rss"></i></a>
+        
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
