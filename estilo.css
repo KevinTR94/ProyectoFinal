@@ -29,7 +29,7 @@ html{
 .contenedor-header header .logo a{
     font-family: 'Righteous';
     font-size: 36px;
-    color: #f2f8f7;
+    color: #d69f30;
     text-decoration: none;
 }
 .contenedor-header header ul{
@@ -38,17 +38,17 @@ html{
 }
 .contenedor-header header nav ul li a{
     text-align: none;
-    color: #fff;
+    color: #d69f30;
     margin: 0 15px;
     padding: 3px;
     transition: .5s;
     text-decoration: none;
 }
 .contenedor-header header nav ul li a:hover{
-    color: #1CB698;
+    color: #d69f30;
 }
 .nav-responsive{
-    background-color: #1CB698;
+    background-color: #d69f30;
     color:#fff;
     padding: 5px 10px;
     border-radius: 5px;
@@ -56,6 +56,8 @@ html{
     display: none;
 }
 /* SECCION I N I C I O */
+
+
 .inicio{
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
     url( img/messi-seleccion-argentina-mundial.webp) ;
@@ -73,16 +75,18 @@ html{
 
 .inicio .contenido-banner{
     padding: 20px;
-    background-color: #c4eb18;
+    background-color:transparent;
+    border: 5px solid #d69f30;
     max-width: 350px;
     margin: auto;
     text-align: center;
     border-radius: 40px;
     display: block;
+    margin-top: 370px;
 }
 .inicio .contenido-banner img{
     margin-top: 40px;
-    border: 5px solid #1CB698;
+    border: 5px solid #d69f30;
     display: block;
     width: 100%;
     margin: auto;
@@ -111,7 +115,7 @@ html{
     transition: .3s;
 }
 .inicio .contenido-banner .redes a:hover{
-    background-color: #1CB698;
+    background-color: #d69f30;
 }
 .sobremi{
     background-color: #1e2326;
@@ -135,7 +139,7 @@ html{
     margin-bottom: 20px;
 }
 .sobremi .contenido-seccion p span{
-    color: #1CB698;
+    color: #d69f30;
     font-weight:bold;
 }
 .sobremi .fila{
@@ -160,12 +164,12 @@ html{
 }
 .sobremi .fila .col ul li strong{
     display: inline-block;
-    color: #1CB698;
+    color: #d69f30;
     width: 130px;
     
 }
 .sobremi .fila .col ul li span{
-    background-color: #1CB698;
+    background-color: #d69f30;
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
@@ -187,39 +191,13 @@ html{
     transition: .3s;
     font-size: 12px;
 }.sobremi .fila .col .contenedor-premios .premios:hover{
-    background-color: #1CB698;
+    background-color: #d69f30;
 }
 .sobremi .fila .col .contenedor-premios .premios i{
     font-size: 30px;
     margin-bottom: 10px;
 }
-.sobremi button{
-    cursor: pointer;
-    background-color: transparent;
-    border: 2px solid #fff;
-    width: fit-content;
-    display: block;
-    margin: 20px auto;
-    padding: 10px 22px;
-    font-size: 16px;
-    color: #fff;
-    position: relative;
-    z-index: 10;
-}
-.sobremi button .overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background-color: #1CB698;
-    z-index: -1;
-    transition: 1s;
-    
-}
-.sobremi button:hover .overlay{
-    width: 100%;
-}
+
 
 
 
@@ -265,7 +243,7 @@ html{
     margin-bottom: 30px;
 }
 .habilidades .habilidad .progreso{
-    background-color: #1CB698;
+    background-color: #d69f30;
     position: absolute;
     top: 0;
     left: 0;
@@ -275,13 +253,14 @@ html{
     position: absolute;
     height: 40px;
     width: 40px;
-    background-color: #1CB698;
+    background-color: #d69f30;
     border-radius: 50px;
     line-height: 40px;
     text-align: center;
     top: -17px;
     right: -15px;
-    font-size: 14px;
+    font-size: 18px;
+    font-weight: bold;
 }
 /* Estas clases se agregaran dinamicamente mediante javascript */
 .habilidades .habilidad .ritmo{
@@ -410,6 +389,7 @@ html{
 .trayectoria .fila{
     display: flex;
     justify-content: space-between;
+    
 }
 .trayectoria .fila .col{
     width: 49%;
@@ -420,8 +400,10 @@ html{
     font-family: 'Righteous';
     margin-bottom: 25px;
 }
+
 .trayectoria .fila .izquierda{
     border-right: 2px solid #252A2E;
+    
 }
 .trayectoria.fila .derecha{
     border-left: 2px solid #252A2E;
@@ -436,31 +418,35 @@ html{
     font-size: 20px;
     margin-bottom: 10px;
 }
+.trayectoria .fila .item h5{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
 .trayectoria .fila .item .equipo{
-    color: #1CB698;
+    color: #d69f30;
     font-size: 22px;
     font-weight: bold;
     display: block;
 }
 .trayectoria .fila .item .fecha{
     display: block;
-    color: #1CB698;
-    margin-bottom: 10px;
+    color: #d69f30;
+    margin-bottom: 90px;
 }
 .trayectoria .fila .item p{
     line-height: 24px;
 }
 .trayectoria .fila .izq{
-    border-right: 2px solid #1CB698;
+    border-right: 2px solid #d69f30;
     margin-right: 20px;
 }
 .trayectoria .fila .der{
-    border-left: 2px solid #1CB698;
+    border-left: 2px solid #d69f30;
     margin-left: 20px;
 }
 .trayectoria .fila .item .conectori{
     height: 2px;
-    background-color: #1CB698;
+    background-color: #d69f30;
     width: 47px;
     position: absolute;
     top: 50%;
@@ -472,14 +458,14 @@ html{
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #1CB698;
+    background-color: #d69f30;
     float: right;
     position: relative;
     bottom: 4px;
 }
 .trayectoria .fila .item .conectord{
     height: 2px;
-    background-color: #1CB698;
+    background-color: #d69f30;
     width: 47px;
     position: absolute;
     top: 50%;
@@ -491,12 +477,12 @@ html{
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #1CB698;
+    background-color: #d69f30;
     float: left;
     position: relative;
     bottom: 4px;
 }
-/* SECCION PORTFOLIO */
+/* SECCION LOGROS */
 .logros{
     background-color: #252A2E;
     color: #fff;
@@ -519,7 +505,8 @@ html{
 }
 .logros .galeria .proyecto{
     position: relative;
-    max-width: 340px;
+    max-width: 500px;
+    max-height: 332px;
     height: fit-content;
     margin: 10px;
     cursor: pointer;
@@ -527,6 +514,8 @@ html{
 .logros .galeria .proyecto img{
     width: 100%;
     display: block;
+    width: 500px;
+    height: 332px;
 }
 .logros .galeria .proyecto .overlay{
     position: absolute;
@@ -534,7 +523,7 @@ html{
     width: 100%;
     height: 100%;
     text-align: center;
-    background: linear-gradient(rgba(28,182,152,.8), rgba(28,182,152,.8));
+    background: linear-gradient(rgba(223, 174, 16, 0.8), rgba(223, 174, 22, 0.8));
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -607,7 +596,7 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1CB698;
+    background-color: #d69f30;
     z-index: -1;
     transition: 1s;
 }
@@ -633,10 +622,11 @@ html{
     margin-bottom: 20px;
 }
 .contacto .col .info ul li i{
-    color: #1CB698;
+    color: #d69f30;
     display: inline-block;
     margin-right: 20px;
 }
+#textoMensaje{resize: none;}
 footer{
     background-color: #252A2E;
     color: #fff;
@@ -665,7 +655,7 @@ footer .arriba{
     display: block;
     width: 50px;
     height: 50px;
-    background-color: #1CB698;
+    background-color: #d69f30;
     color: #fff;
     position: absolute;
     left: 50%;
@@ -678,6 +668,10 @@ footer .arriba{
 
 #trayectoria-mobile {
     display:none;
+}
+
+#iniciomobile{
+    display: none;
 }
 
 /* SECCION RESPONSIVE */

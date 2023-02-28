@@ -41,3 +41,32 @@ function efectoHabilidades(){
 window.onscroll = function(){
     efectoHabilidades();
 } 
+
+// traigo elemento del dom
+const inputNombre = document.getElementById('inputNombre')
+const inputTelefono = document.getElementById('inputTelefono')
+const inputTema = document.getElementById('inputTema')
+const inputCorreo = document.getElementById('inputCorreo')
+const btnEnviar = document.getElementById('btnEnviar')
+const textoMensaje = document.getElementById('textoMensaje')
+btnEnviar.addEventListener('click',(e) =>{
+    e.preventDefault()
+    if(( inputCorreo.value && inputTelefono.value && inputTema.value && inputNombre.value && textoMensaje.value)  === ('') ){
+        Swal.fire({
+            icon:'error',
+            title:'Complete el formulario!',
+            color: "#d69f30",
+            background: "#1e2326",
+            confirmButtonColor: "#d69f30",
+        })
+ }
+ else{
+    Swal.fire({
+        icon:'success',
+        title:'Mensaje enviado',
+        color: "#d69f30",
+        background: "#1e2326",
+        confirmButtonColor: "#d69f30",
+ })
+}
+})

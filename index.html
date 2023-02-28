@@ -11,13 +11,13 @@
         integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="shortcut icon" href="https://static.messi.com/wp-content/uploads/2019/10/cropped-logo--32x32.png " type="image/x-icon">
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11%22%3E"> </script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"> </script>
         <title>The Goat</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 
 <body>
-    <!-- MENU ENCABEZADO -->
+    <!-- Barra Navegadora -->
     
 
     <div class="contenedor-header">
@@ -59,11 +59,16 @@
         </div>
     </section>
 
+    
+        
+
+    </section>
+
     <!-- SECCION SOBRE MI -->
     <section id="sobremi" class="sobremi">
         <div class="contenido-seccion">
             <h2>THE GOAT</h2>
-            <p><span>Lionel Andres Messi Cuccitini.</span> Futbolista argentino, actual jugador del Paris Saint Germain
+            <p><span>Lionel Andres Messi Cuccittini.</span> Futbolista argentino, actual jugador del Paris Saint Germain
                 y la selección argentina. Campeón del mundo. Esposo y padre de tres hijos</p>
 
             <div class="fila">
@@ -144,14 +149,11 @@
                     </div>
                 </div>
             </div>
-            <button>
-                Descargar palmares <i class="fa-solid fa-download"></i>
-                <span class="overlay"></span>
-            </button>
+           
         </div>
     </section>
 
-    <!-- SECCION SKILLS -->
+    <!-- SECCION HABILIDADES -->
     <section class="habilidades" id="habilidades">
         <div class="contenido-seccion">
             <h2>Habilidades y Estadiísticas</h2>
@@ -284,6 +286,7 @@
                         <h4>España</h4>
                         <span class="equipo">Barcelona</span>
                         <span class="fecha">2000-2020</span>
+                        <br><br>
                         
                         <div class="conectori">
                             <div class="circuloi"></div>
@@ -313,12 +316,14 @@
 
                 <div class="col derecha">
                     <h3>Titulos</h3>
-                    <div class="item der">
+                    <div class="item der" >
                         
-                        <h4> Varios campeonatos en infantiles donde ya podia
+                        <h5 > Varios campeonatos en infantiles donde ya podia
                             verse la diferencia que marcaba con sus compañeros
                             de categorias mayores
-                        </h4>
+                        
+                        </h5 > 
+                        <br><br><br><br><br>
                         
                        
                         <div class="conectord">
@@ -331,7 +336,8 @@
                         <h4>Supercopa de España</h4>
                         <h4>Champions League</h4>
                         <h4>Supercopa de Europa</h4>
-                        <h4>Mundial de Clubes</h4>
+                        <h5>Mundial de Clubes</h5>
+                        
                         
                         
                         
@@ -341,7 +347,8 @@
                     </div>
                     <div class="item der">
                         <h4>Ligue 1</h4>
-                        <h4>Copa de Francia</h4>
+                        <h5>Copa de Francia</h5>
+                        <br><br><br><br><br><br>
                       
                        
                         <div class="conectord">
@@ -354,8 +361,8 @@
                         <h4>Juegos Olímpicos</h4>
                         <h4>Copa América</h4>
                         <h4>Finalissima</h4>
-                        <h4>Mundial Qatar 2022</h4>
-                      
+                        <h5>Mundial Qatar 2022</h5>
+                        <br><br><br><br><br><br><br>
                        
                         <div class="conectord">
                             <div class="circulod"></div>
@@ -472,6 +479,21 @@
                         <p>2022</p>
                     </div>
                 </div>
+                <div class="proyecto">
+                    <img src="img/MessiJOO.webp" alt="">
+                    <div class="overlay">
+                        <h3>Juegos Olimpicos </h3>
+                        <p>Pekin 2008</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/MessiBalonDeOro.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Balon de Oro</h3>
+                        <p>2009-2010-2011-2012</p>
+                        <p>2015-2019-2021</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -483,17 +505,17 @@
             <div class="fila">
                 <!-- Formulario -->
                 <div class="col">
-                    <input type="text" placeholder="Tú Nombre">
-                    <input type="text" placeholder="Número telefónico">
-                    <input type="text" placeholder="Dirección de correo">
-                    <input type="text" placeholder="Tema">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                    <button>
+                    <input id="inputNombre" type="text" placeholder="Tú Nombre">
+                    <input id="inputTelefono" type="number" placeholder="Número telefónico">
+                    <input id="inputCorreo" type="email" placeholder="Dirección de correo">
+                    <input id="inputTema" type="text" placeholder="Tema">
+                    <textarea name="Mensaje" id="textoMensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button id="btnEnviar">
                         Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
                         <span class="overlay"></span>
                     </button>
                 </div>
-                <!-- Mapa -->
+                <!-- IMAGEN -->
                 <div class="col">
                     <img src="img/mESSICONTACPNG.png" alt="">
                     
@@ -515,7 +537,9 @@
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"> </script>
     <script src="script.js"></script>
+    
 </body>
 
 </html>
